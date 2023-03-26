@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    color: #8312A5;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: #8312A5;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn a {
+    color: aliceblue;
+
+}
+.btn:hover {
+    transition: all ease 1s;
+    box-shadow: 10px 10px white;
+}
