@@ -21,6 +21,9 @@ app.use('/api/v1',authRouter)
 app.get("/login",(req,res) => {
     res.render("_login")
 })
+app.get("/signup",(req,res) => {
+    res.render("_signup")
+})
 app.all('*',(req,res,next) => {
     // res.status(400).json({
     //     status: 'failed',

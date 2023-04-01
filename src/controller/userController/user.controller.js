@@ -21,10 +21,6 @@ exports.createUser = async(req,res,next) => {
          })
        }
     } catch (error) {
-        // res.status(400).json({
-        //     status: 'failed',
-        //     data: error
-        // })
         next(new AppError(error,400))
     }
 }
